@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>My Personal Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/mylogo.jpg">
+            
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#videos">Videos to Learn Coding</a></li>
+            
+        </ul>
+        <button>Contact Me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am Angelo Jay Caga</h5>
+            <h3>I make my <span>Personal Website</span> and show my works</h3>
+            <button>Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="assets/joyy.jpg">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My Expertise</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Basic in Java</h4>
+                <p>
+                    I've got the basics down in Java, handling stuff like variables, loops, and if statements. I'm diving into the world of object-oriented programming, getting the hang of classes and methods. Also, I'm navigating input/output operations and tackling errors the Java way.
+
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Basic in HTML</h4>
+                <p>
+                    I've got the basics of HTML down, diving into the world of web development. 
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>Basic in CSS</h4>
+                <p>
+                    My knowledge in CSS is basic, but I'm eager to explore and enhance my styling skills. 
+                    </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Basic in JavaScript</h4>
+                <p>
+                    
+                    My proficiency in JavaScript is at a foundational level, and I'm excited to delve deeper into its scripting capabilities.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/joyy.jpg">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+            <p>
+                Welcome to my corner of the web! I'm Angelo Jay Caga, born on July 29, 2004. Currently navigating the exciting world of Information Systems at the University of Southern Mindanao. Join me on this academic journey!
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="portfolio" id="videos">
+        <div class="header">
+            <div class="info">
+                <h5>Eyes Here!</h5>
+                <h3>Videos to Learn Coding</h3>
+            </div>
+            <button><i class='bx bxl-instagram'></i> Visit My Instagram</button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/jar-1.jpg">
+                <div class="info">
+                    <h4>SDPT Solutions</h4>
+                    <p>
+                        A YouTube Channel that aims to teach Filipinos Programming in our own language and Glorify God.
+                        <br>
+                                AVAILABLE TUTORIALS <br>
+                        Programming Fundamentals
+                        C++ Tutorial
+                        SQL Tutorial
+                        C# Tutorial
+                        Java Tutorial
+                        Python Tutorial
+                        HTML Tutorial
+                        CSS Tutorial
+                        JavaScript Tutorial
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/jar-2.jpg">
+                <div class="info">
+                    <h4>DojiCreates</h4>
+                    <p>
+                        Hello, ako si Doji at mahilig ako mag turo. Marami akong interest at hobbies gaya ng finance, business, investments, self-developments, video edting, content creation at ngayon ay ang programing.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <img src="assets/jar-3.jpg">
+                <div class="info">
+                    <h4>Programmer TV</h4>
+                    <p>
+                        Hi! Welcome to Pro Grammer TV channel! ,<br>
+My name is Frace C. Marteja, an expert Computer Programmer and ProGrammer TV  Content Creator. I am both eager and elated to share my knowledge with those who aspire to become a Computer Programmer.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/mylogo.jpg">
+                <a href="https://www.facebook.com/angelojay.caga.35?mibextid=b1r3HaZxQ2aOKKJt">Angelo Jay Caga</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
